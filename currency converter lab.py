@@ -41,10 +41,14 @@ def ex_yen(a):
     return result
 
 def ex_peso(a):
-    float_peso= float(a) * exchange_rate['rupee']
+    float_peso= float(a) * exchange_rate['peso']
     result = str(float_peso)
     return result
 
+def ex_rupee(a):
+    float_peso= float(a) * exchange_rate['rupee']
+    result = str(float_peso)
+    return result
 
                 
 def main():
@@ -75,43 +79,52 @@ def main():
     win.getMouse()
     str_in = en.getText()
     input_str  = float(str_in)
+    result=input_str
     
 
     m = win.getMouse()
+    te = Text(Point(300, 40), '')
+    te.draw(win)
     
     while True:
         
         if close.isClicked(m):
-            win.close()
+            break
             
         if dollar.isClicked(m):
+            te.undraw()
             result = ex_dollars(input_str)
         
         if won.isClicked(m):
+            te.undraw()
             result = ex_won(input_str)
             
         if euro.isClicked(m):
+            te.undraw()
             result = ex_euro(input_str)
             
         if yuan.isClicked(m):
+            te.undraw()
             result = ex_yuan(input_str)
             
         if yen.isClicked(m):
+            te.undraw()
             result = ex_yen(input_str)
             
         if peso.isClicked(m):
+            te.undraw()
             result = ex_peso(input_str)
             
         if rupee.isClicked(m):
+            te.undraw()
             result = ex_rupee(input_str)
 
         te = Text(Point(300, 40), result)
         te.draw(win)
+
+        m=win.getMouse()
         
     win.close()
     
 if __name__ == "__main__":
     main()
-    
-
-
