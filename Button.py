@@ -4,8 +4,8 @@ class Button():
 
     def __init__(self, win, color, text, center, size):
 
-        self.p1 = Point(center.x - size, center.y - size/2)
-        self.p2 = Point(center.x + size, center.y + size/2)
+        self.p1 = Point(center.x - size, center.y - size)
+        self.p2 = Point(center.x + size, center.y + size)
         self.r = Rectangle(self.p1, self.p2)
         self.r.draw(win)
         self.r.setFill(color)
@@ -30,6 +30,3 @@ class Button():
                     
         return False
     
-
-
-
