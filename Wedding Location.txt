@@ -1,0 +1,77 @@
+Wedding Locations in Washington:
+
+<Thornewood Castle Inn & Gardens>
+Location: Lakewood
+Price: $5950
+
+<Marriott Downtown>
+Location: Tacoma
+Price: $6700
+
+<West of the Waterway>
+Location: Tacoma
+Price: $4120
+
+<Greater Tacoma Convention Center>
+Location: Tacoma
+Price: $2670
+
+<The Press Room>
+Location: Tacoma
+Price: $3420
+
+<Silver Cloud Hotel Tacoma at Point Ruston Waterfront>
+Location: Ruston
+Price: $5100
+
+<The ESB (Environmental Services Building>
+Location: University Place
+Price: $3200
+
+<Historic 1625 Tacoma Place>
+Location: Tacoma
+Price: $4230
+
+<The Kelley Farm>
+Location: Bonney Lake
+Price: $2730
+
+<Chambers Bay Golf Course>
+Location: University Place
+Price: $1980
+
+<Bell Harbor International Conference Center>
+Location: Seattle
+Price: $3450
+
+<Hotel 1000>
+Location: Seattle
+Price: $4980
+
+<The Ruins>
+Location: Seattle
+Price: $5230
+
+<The Edgewater>
+Location: Seattle
+Price: $4820
+
+<Lord Mansion and Coach House>
+Location: Olympia
+Price: $2310
+
+<Indian Summer Golf & Country Club>
+Location: Olympia
+Price: $3240
+
+<Novelty Hill - Januik Winery>
+Location: Ruston
+Price: $4320
+
+<Metropolist>
+Location: Seattle
+Price: $5250
+
+<Hillside Farms>
+Location: Olympia
+Price: $4210

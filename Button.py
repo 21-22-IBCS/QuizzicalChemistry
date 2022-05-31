@@ -29,4 +29,7 @@ class Button():
                         return True
                     
         return False
-    
+
+    def undraw(self, win):
+        self.r.undraw()
+        self.t.undraw()
